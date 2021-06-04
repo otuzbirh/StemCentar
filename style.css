@@ -1,0 +1,830 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------Menus-------------------*/
+@media (min-width: 992px) {
+	.dropdown-menu .dropdown-toggle:after{
+	    border-top: .3em solid black;
+	    border-right: 0;
+	    border-bottom: .3em solid black;
+	    border-left: .3em solid;
+
+	}
+	.dropdown-menu .dropdown-menu{
+		margin-left:0; margin-right: 0;
+	}
+	.dropdown-menu li{
+background-color:black;
+                display: block;
+		position: relative;
+	}
+	.nav-item .submenu{ 
+
+		display: none;
+		position: absolute;
+		left:100%; top:-20 px;
+	}
+	.nav-item .submenu-right{ 
+		left:100%; right:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: black; }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+transition:none;
+	}
+
+}
+
+
+.navbar {
+    padding: 12px 0px;
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.navbar ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 0.5 s ease-in;
+    background: transparent;
+}
+
+.navbar ul li a:hover {
+    
+    color: deepskyblue !important;
+    background: none !important;
+    
+}
+
+.navbar-toggle {
+    border: 1px solid white !important;
+    color: black !important;
+    transition: all 0.5s ease-in;
+}
+
+.icon-bar {
+    color: white !important;
+    background-color: white !important;
+}
+
+.navbar-toggle:hover {
+    background-color: deepskyblue !important;
+}
+
+.navbar-inverse .navbar-collapse {
+    
+    border-color: transparent !important;
+    
+}
+
+.navbar-brand img {
+    height: 50px;
+    position: relative;
+    top: -14px;
+     
+    
+   
+}
+
+
+.location {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.navbar-inverse {
+    background-color: transparent !important;
+}
+
+/*------------Menus close---------*/
+
+
+.secondary {
+    background-color: #34495e !important;
+}
+
+
+/*===============================================
+    Sticky navigation with background color
+==================================================*/
+
+
+
+
+
+
+
+/*================================
+        Slider starts
+=================================*/
+
+.slider {
+    width: 100%;
+    height: 700px;
+    background-image: url("https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=633&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    position: relative;
+}
+
+/* position: relative - uzima za marginu body
+   position: absolute - uzima za marginu dio izvan body-a */
+.slider-content {
+    position: absolute;
+    top: 39%;
+    width: 100%;
+}
+
+.icons .fa {
+    font-size: 35px;
+    margin-right: 7px;
+}
+
+.cta-div {
+    margin-top: 30px;
+    
+}
+
+
+.btn1 {
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    margin-right: -6px;
+    transition: all 0.5s ease-in;
+}
+
+.btn1:hover {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.btn2 {
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: 10px;
+}
+
+.btn2:hover {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+
+
+.social-networks a.fa{
+   
+    border: 1px solid white;
+    padding-top: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+    
+}
+
+
+
+.social-networks a.fa:hover {
+    text-decoration: none;
+    background-color: skyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+    
+}
+
+
+
+.slider .text, .slider .typed-cursor {
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.primary {
+    color: orangered;
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.7s infinite;
+    -mox-animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*==================================
+    Slider ends
+===================================*/
+
+
+/*==================================
+        Usluge stil(services styles)
+===================================*/
+
+
+.service-area
+{
+    margin-top: 30px;
+}
+
+.service-area p
+{
+   margin-bottom: -5px;
+}
+
+
+
+
+.service-wrap {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    
+}
+
+.service-wrap::before, .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;    
+    
+}
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;  
+    
+}
+
+.service-wrap:hover:before{    
+    left: -27px;
+    opacity: 1;
+    
+}
+
+
+.service-wrap::after{
+     right: 100%;
+     bottom: -37px;
+    
+}
+
+.service-wrap:hover:after{
+     right: -27px;
+     opacity: 1;
+    
+}
+
+.service-wrap:hover{
+     color: white;    
+}
+
+.service-wrap:h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3:after{
+     background-color: white;    
+}
+
+.service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    
+}
+
+
+.service-wrap:hover .service-icon i{
+    
+    transform:rotate(360deg);
+}
+
+.service-wrap h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.service-wrap p
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/*==================================
+        Usluge stil(services styles) kraj
+===================================*/
+
+/*==================================
+        Usluge stil(services styles) kraj
+===================================*/
+
+/*=======================================
+            Work styles
+=========================================*/
+
+.work
+{
+    margin-top: 25px;
+}
+
+.row.no-gutters [class*=col-]
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.img-wrapper
+{
+    overflow: hidden;
+}
+
+.img-wrapper img
+{
+   transition: transform 0.5s ease;
+   width: 100%;
+    
+    
+}
+
+.img-wrapper img:hover
+{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+
+/*=======================================
+            Work style ends
+=========================================*/
+
+ 
+/*=======================================
+            Video style starts
+=========================================*/  
+
+
+.video-area
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url(slike/slider-bg.jpg);
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    overflow: hidden;
+    margin-top: 40px;
+    background-attachment: fixed;
+ 
+    
+}
+
+.play
+{
+    background:#fff url(slike/play-btn.png) no-repeat  60% 50%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    -webkit-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    -moz-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    -o-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    transition: all .4s ease-in
+    -webkit-transition: all .4s ease-in
+    -moz-transition: all .4s ease-in
+    -o-transition: all .4s ease-in
+    -ms-transition: all .4s ease-in
+ 
+}
+
+.play:hover
+{
+    box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
+    -webkit-box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
+    -moz-box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
+   
+}
+
+.video-container
+{
+   position: relative;
+    padding-bottom: 54.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: -130px;
+    display: none;
+    
+    
+}
+
+/*=======================================
+            Video style ends
+=========================================*/  
+
+
+/*=======================================
+            News style Start
+=========================================*/
+
+.latest-news-area
+{
+    margin-top: 40px;
+}
+
+.latest-news-wrap
+{
+    
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+    
+}
+
+.news-img
+{
+    position: relative;
+}
+
+.news-img:before
+{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content:"";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all 0.5s; 
+    
+}
+
+
+.latest-news-wrap:hover .news-img:before
+{
+    opacity: .5;
+    transform: scale(1);
+ 
+}
+
+
+.deat
+{
+    background: #f89406 none repeat scroll 0 0;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    padding: 10px;
+   
+}
+
+.deat span
+{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+ 
+}
+
+
+.news-content
+{
+    padding: 20px;
+    margin-left:3px;
+}
+
+
+
+.news-content  i
+{
+    font-size: 18px;
+    display: inline-block;
+ 
+}
+ 
+
+.news-content .fa
+{
+    padding: 10px 10px;
+    cursor: pointer;
+ 
+}
+
+
+.news-content .fa-facebook
+{
+    color: #3b5995;    
+    
+}
+
+.news-content .fa-twitter
+{
+    color: #0084b4;    
+    
+}
+
+.news-content .fa-linkedin
+{
+    color: #0077b5;    
+    
+}
+
+
+.news-content .fa-youtube
+{
+    color: red;    
+    
+}
+.news-content .fa-whatsapp
+{
+    color: #34af23;    
+    
+}
+
+.news-content p
+{
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+
+.news-content a
+{
+    font-size: 14px;
+    background-color: #34495e;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.5s  ease-in;
+}
+
+.news-content a:hover
+{
+    font-size: 14px;
+    border: 1px solid #34495e;
+    border-top-right-radius: 20px;
+    background-color: transparent;
+    color: #34495e;
+    margin-right: 0;
+    text-decoration: none;
+    
+    
+}
+
+/*=======================================
+            News style Ends
+=========================================*/
+
+/*=======================================
+        Contact area style starts
+=========================================*/
+
+.contact-area
+{
+    margin-top: 60px;
+}
+
+
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+    
+}
+
+
+.contact-form button.btn
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.border-bottom-now
+{
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+.contact-infos
+{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    background: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+ 
+    
+}
+
+.contact-infos .fa
+{
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    
+}
+
+.contact-infos p
+{
+    color: white;
+    margin-top: 15px;
+    
+}
+ 
+/*=======================================
+        Contact area style End
+=========================================*/
+
+/*=======================================
+        Map area style starts
+=========================================*/
+
+.maps
+{
+    margin-top: 20px;
+}
+
+
+/*=======================================
+        Map area style Ends
+=========================================*/
+
+
+/*=======================================
+        Footer area style starts
+=========================================*/
+
+
+.footer
+{
+    background: url(slike/Black-Wood-Footer-Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: white;
+   
+}
+
+.social-icon a
+{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+    
+}
+
+
+.footer .fa
+{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 10px solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+    
+    
+}
+
+.social-icon a:hover .fa
+{
+    
+    border: 10px solid white;
+    transform: rotate(360deg);
+  
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+
+

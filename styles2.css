@@ -1,0 +1,272 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------Menus-------------------*/
+
+
+
+.navbar {
+    padding: 12px 0px;
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.navbar ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+   
+}
+
+.navbar ul li a:hover {
+    
+    color: deepskyblue !important;
+    background: none !important;
+    
+}
+
+.navbar-toggle {
+    border: 1px solid white !important;
+    color: white !important;
+    transition: all 0.5s ease-in;
+}
+
+.icon-bar {
+    color: white !important;
+    background-color: white !important;
+}
+
+.navbar-toggle:hover {
+    background-color: deepskyblue !important;
+}
+
+.navbar-inverse .navbar-collapse {
+    
+    border-color: transparent !important;
+    
+}
+
+.navbar-brand img {
+    height: 50px;
+    position: relative;
+    top: -14px;
+     
+    
+   
+}
+
+
+.location {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.navbar-inverse {
+    background-color: #34495e !important;
+    
+}
+
+
+@media (min-width: 992px) {
+	.dropdown-menu .dropdown-toggle:after{
+	    border-top: .3em solid black;
+	    border-right: 0;
+	    border-bottom: .3em solid black;
+	    border-left: .3em solid;
+
+	}
+	.dropdown-menu .dropdown-menu{
+		margin-left:0; margin-right: 0;
+	}
+	.dropdown-menu li{
+background-color:#34495e;
+                display: block;
+		position: relative;
+	}
+	.nav-item .submenu{ 
+
+		display: none;
+		position: absolute;
+		left:100%; top:-20 px;
+	}
+	.nav-item .submenu-right{ 
+		left:100%; right:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #34495e; }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+transition:none;
+	}
+
+}
+
+
+
+/*------------Menus close---------*/
+
+
+
+.container p {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.container h2 {
+    padding-left: 50px;
+}
+
+
+/*=======================================
+        Contact area style starts
+=========================================*/
+
+.contact-area
+{
+    margin-top: 60px;
+}
+
+
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+    
+}
+
+
+.contact-form button.btn
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.border-bottom-now
+{
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+.contact-infos
+{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    background: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+ 
+    
+}
+
+.contact-infos .fa
+{
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    
+}
+
+.contact-infos p
+{
+    color: white;
+    margin-top: 15px;
+    
+}
+ 
+/*=======================================
+        Contact area style End
+=========================================*/
+
+/*=======================================
+        Map area style starts
+=========================================*/
+
+.maps
+{
+    margin-top: 20px;
+}
+
+
+/*=======================================
+        Map area style Ends
+=========================================*/
+
+
+/*=======================================
+        Footer area style starts
+=========================================*/
+
+
+.footer
+{
+    background: url(slike/Black-Wood-Footer-Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: white;
+   
+}
+
+.social-icon a
+{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+    
+}
+
+
+.footer .fa
+{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 10px solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+    
+    
+}
+
+.social-icon a:hover .fa
+{
+    
+    border: 10px solid white;
+    transform: rotate(360deg);
+  
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
